@@ -1,0 +1,10 @@
+class Car
+  def initialize
+    @engine = GasolineEngine.new
+  end
+  
+  def sunday_drive
+    @engine.start()
+    puts 'Crusing at - @engine.mpg'
+  end
+end

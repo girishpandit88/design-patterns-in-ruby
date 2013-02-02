@@ -1,0 +1,7 @@
+class GasolineEngine < Engine
+  attr_accessor mpgs
+  def initialize
+    puts 'Gasoline Engine is used in this car...'
+    @mpg = 35
+  end
+end
