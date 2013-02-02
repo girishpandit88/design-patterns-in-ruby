@@ -8,8 +8,10 @@ class Car
 
   def weekday_drive
     @engine.start()
-    puts "Cost of the car - #{@engine.cost}"
-    puts "Crusing at - #{@engine.mpg}"
+    puts("Cost of the car - @engine.mpg")
+    puts @engine.cost
+    puts 'Crusing at '
+    puts @engine.mpg
     @engine.stop()
   end
 
@@ -19,8 +21,10 @@ class Car
 
   def weekend_drive
     @engine.start()
-    puts "Cost of the car - #{@engine.cost}"
-    puts "Crusing at - #{@engine.mpg}"
+    puts 'Cost of this car'
+    puts @engine.cost
+    puts 'Crusing at '
+    puts @engine.mpg
     @engine.stop()
   end
 end
