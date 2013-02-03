@@ -1,3 +1,6 @@
+#Documented by GIRISH
+#Feb 2, 2013-10:14:32 PM
+
 require 'Protocol.rb'
 
 class NFC < Protocol

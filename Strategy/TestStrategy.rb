@@ -1,3 +1,6 @@
+#Documented by GIRISH
+#Feb 2, 2013-10:14:48 PM
+
 require 'Stream.rb'
 
 stream = Stream.new
